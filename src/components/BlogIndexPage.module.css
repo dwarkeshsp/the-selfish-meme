@@ -1,7 +1,8 @@
 .title {
-  font-family: Montserrat, sans-serif;
+  font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
+    "Book Antiqua", Georgia, serif;
   font-size: 2.5rem;
-  font-weight: 900;
+  font-weight: 600;
   line-height: 3.5rem;
   margin-top: 0;
   margin-bottom: 2.625rem;
@@ -16,7 +17,7 @@
 .articlesList > li {
   list-style: none;
   padding: 0;
-  margin: 0 0 2.625rem;;
+  margin: 0 0 2.625rem;
 }
 
 .footer {

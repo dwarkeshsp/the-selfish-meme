@@ -1,65 +1,73 @@
-import React from 'react'
-import { compose, crawl, mount, resolve, route, withContext, withCrawlerPatterns } from 'navi'
-import { join } from 'path'
-import { fromPairs } from 'lodash'
-import TagIndexPage from '../components/TagIndexPage'
-import TagPage from '../components/TagPage'
-import routes from './index'
+import React from "react";
+import {
+  compose,
+  crawl,
+  mount,
+  resolve,
+  route,
+  withContext,
+  withCrawlerPatterns
+} from "navi";
+import { join } from "path";
+import { fromPairs } from "lodash";
+import TagIndexPage from "../components/TagIndexPage";
+import TagPage from "../components/TagPage";
+import routes from "./index";
 
 async function crawlRoutes(root) {
   if (!crawlRoutes.cache[root]) {
     let { paths } = await crawl({
       context: {
-        crawlingRoutes: true,
+        crawlingRoutes: true
       },
       root,
-      routes,
-    })
+      routes
+    });
     crawlRoutes.cache[root] = await resolve({
-      method: 'HEAD',
+      method: "HEAD",
       routes,
-      urls: paths,
-    }) 
+      urls: paths
+    });
   }
-  return crawlRoutes.cache[root]
+  return crawlRoutes.cache[root];
 }
-crawlRoutes.cache = {}
+crawlRoutes.cache = {};
 
 const tagRoutes = compose(
   withContext((req, context) => ({
     ...context,
-    tagsRoot: req.mountpath,
+    tagsRoot: req.mountpath
   })),
   withCrawlerPatterns({
-    '/:tag': async (req, context) => {
+    "/:tag": async (req, context) => {
       if (!context.crawlingRoutes) {
         return getAvailableTagsFromRoutes(
           await crawlRoutes(context.blogRoot)
-        ).map(tag => '/'+tag)
+        ).map(tag => "/" + tag);
       }
-      return []
+      return [];
     }
   }),
   mount({
-    '/': route({
-      title: 'Tags',
+    "/": route({
+      title: "Tags",
 
       getView: async (req, context) => {
         // Build a list of pages for each tag
-        let routes = await crawlRoutes(context.blogRoot)
-        let tags = getAvailableTagsFromRoutes(routes)
-        let tagRoutes = fromPairs(tags.map(name => [name.toLowerCase(), []]))
+        let routes = await crawlRoutes(context.blogRoot);
+        let tags = getAvailableTagsFromRoutes(routes);
+        let tagRoutes = fromPairs(tags.map(name => [name.toLowerCase(), []]));
         routes.forEach(route => {
-          let data = route.data
+          let data = route.data;
           if (data && data.tags) {
             data.tags.forEach(tag => {
-              tag = tag.toLowerCase()
+              tag = tag.toLowerCase();
               if (tagRoutes[tag]) {
-                tagRoutes[tag].push(route)
+                tagRoutes[tag].push(route);
               }
-            })
+            });
           }
-        })
+        });
 
         return (
           <TagIndexPage
@@ -67,27 +75,27 @@ const tagRoutes = compose(
             tags={tags.map(name => ({
               name,
               href: join(req.mountpath, name.toLowerCase()),
-              count: (tagRoutes[name] || []).length,
+              count: (tagRoutes[name] || []).length
             }))}
           />
-        )
-      },
+        );
+      }
     }),
 
-    '/:tag': route({
+    "/:tag": route({
       getTitle: req => req.params.tag,
       getView: async (req, context) => {
-        let lowerCaseTag = req.params.tag.toLowerCase()
-        let routes = await crawlRoutes(context.blogRoot)
+        let lowerCaseTag = req.params.tag.toLowerCase();
+        let routes = await crawlRoutes(context.blogRoot);
 
         // Build a list of pages that include the tag from the site map
-        let tagRoutes = []
+        let tagRoutes = [];
         routes.forEach(route => {
-          let tags = (route.data && route.data.tags) || []
+          let tags = (route.data && route.data.tags) || [];
           if (tags.find(metaTag => metaTag.toLowerCase() === lowerCaseTag)) {
-            tagRoutes.push(route)
+            tagRoutes.push(route);
           }
-        })
+        });
 
         return (
           <TagPage
@@ -95,18 +103,18 @@ const tagRoutes = compose(
             name={req.params.tag}
             routes={tagRoutes}
           />
-        )
-      },
-    }),
-  }),
-)
+        );
+      }
+    })
+  })
+);
 
 function getAvailableTagsFromRoutes(routes) {
   return Array.from(
     new Set(
-      [].concat(...routes.map(route => (route.data && route.data.tags) || [])),
-    ),
-  )
+      [].concat(...routes.map(route => (route.data && route.data.tags) || []))
+    )
+  );
 }
 
-export default tagRoutes
+export default tagRoutes;

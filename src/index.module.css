@@ -11,12 +11,13 @@
 
 :global html {
   color: rgba(0, 0, 0, 0.9);
-  font: 100%/1.75 Morriweather, Georgia, serif;
+  font: 100%/1.75 Merriweather, Georgia, serif;
 }
 
 :global body {
   font-kerning: normal;
-  font-family: "Merriweather", "Georgia", serif;
+  font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
+    "Book Antiqua", Georgia, serif;
   font-feature-settings: "kern", "liga", "clig", "calt";
   font-weight: 400;
   margin: 0;

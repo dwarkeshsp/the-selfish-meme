@@ -3,7 +3,7 @@ export default {
   // <title> tag.
   title: "Beyond the Yellow Brick Road",
 
-  author: "Andrew Young, Dwarkesh Patel",
+  author: "Dwarkesh Patel",
   description: "",
 
   // The number of posts to a page on the site index.
