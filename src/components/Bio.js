@@ -39,7 +39,10 @@ function Bio(props) {
         American politics, Chinese totalitarianism, free speech, techonology,
         AI, quantum computing, yadayada.
         <br />
-        Dwarkesh Patel, CS student at UT Austin Email: Gitlab:
+        <b>Dwarkesh Patel</b> • CS student at UT Austin
+        <br />
+        dwarkesh.sanjay.patel@gmail.com •{" "}
+        <a href="https://gitlab.com/dwarkeshsp/">Gitlab</a>
       </p>
     </div>
   );

@@ -1,6 +1,6 @@
 export default {
-  title: `How China gets away with ethnic cleansing`,
-  tags: ["China"],
+  title: `The Endgame for Big Tech`,
+  tags: ["Big Tech"],
   spoiler: "Make spoiler ...",
   getContent: () => import("./document.md")
 };
