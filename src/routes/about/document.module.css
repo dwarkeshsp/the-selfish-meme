@@ -1,9 +1,10 @@
 .Document h1 {
-  font-family: Montserrat, sans-serif;
+  font-family: warnock-pro, Palatino, "Palatino Linotype", "Palatino LT STD",
+    "Book Antiqua", Georgia, serif;
   font-size: 2.5rem;
   font-weight: 900;
   line-height: 1.1;
   margin-top: 1.7rem;
-  margin-bottom: 2.4rem;  
+  margin-bottom: 2.4rem;
   text-rendering: optimizeLegibility;
 }
