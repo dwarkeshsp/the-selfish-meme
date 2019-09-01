@@ -1,6 +1,6 @@
 
 
-Since I assume plenty of praise and glory will be bestowed upon Stuart Firestein in the other reports, I will be honest and direct with his shortcomings. Ignorance is a clumsy, imprecise, and unthoughtful summary of the scientific mindset. The good parts of the book are outdone by the best testaments to science that have been married to canvas, and the bad parts are a hundred and eighty degrees backwards. But such extraordinary criticism is only merited by extraordinary flaws – I provide the former only because Firestein has been so frivolous with the latter. A point by point rebuttal is required to disabuse us of the various confusions that Ignorance tries to impose on us.
+Since I assume plenty of praise and glory will be bestowed upon Stuart Firestein in the other reports, I will be honest and direct with his shortcomings. *Ignorance* is a clumsy, imprecise, and unthoughtful summary of the scientific mindset. The good parts of the book are outdone by the best testaments to science that have been married to canvas, and the bad parts are a hundred and eighty degrees backwards. But such extraordinary criticism is only merited by extraordinary flaws – I provide the former only because Firestein has been so frivolous with the latter. A point by point rebuttal is required to disabuse us of the various confusions that Ignorance tries to impose on us.
 
 Just the preamble will make any person with a pulse and a decent moral and common sense gasp. Here, the author destroys his thesis and the scientific project at large by saying:
 

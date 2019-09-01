@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-navi";
+import Divider from "@material-ui/core/Divider";
 import siteMetadata from "../siteMetadata";
 import ArticleSummary from "./ArticleSummary";
 import Bio from "./Bio";

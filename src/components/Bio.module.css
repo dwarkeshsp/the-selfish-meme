@@ -1,8 +1,9 @@
 .Bio {
   display: flex;
-  margin-bottom: 4.375rem;
+  margin-bottom: 1rem;
+  /* color: #757575; */
 }
-  
+
 .Bio img {
   border-radius: 50%;
   flex-shrink: 0;

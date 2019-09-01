@@ -14,7 +14,7 @@ function ArticleSummary({ blogRoot, route }) {
         <ArticleMeta blogRoot={blogRoot} meta={route.data} />
         <p>{route.data.spoiler}</p>
       </article>
-      <Divider variant="middle" component="li" />
+      <Divider light variant="middle" component="li" />
     </div>
   );
 }
