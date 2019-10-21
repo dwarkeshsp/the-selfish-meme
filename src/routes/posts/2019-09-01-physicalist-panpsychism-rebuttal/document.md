@@ -4,11 +4,17 @@ Strawson writes:
 
 > [Physicalist panexperientialism] points out [1] that we know for certain that there is experientiality, [2] that we don’t know for certain that there is any non-experiential reality, [3] that we have very strong reason to expect fundamental continuity of being or nature between the experiential reality we know for certain to exist and any other concrete reality there is, [4] that to suppose that the fundamental intrinsic nature of reality is wholly non-experiential requires one to posit ‘radical’ emergence of the experiential from the non-experiential. In the light of this it proposes that the most natural and parsimonious hypothesis is that all concrete reality is experiential.
 
+We
+know experience is real, so we know that experience is physical if physicalism is true, and
+the fundamental metaphysical question, given that we know that there is experiential
+physical stuff, is whether there is any respectable reason to posit any non-experiential
+physical stuff.
+
 Panpsychism claims that experience has to be fundamental to the nature of *stuff*. Since we know that we can experience and since it is hard to imagine how and why experience could be the unique property of just the matter that constitutes our minds, panpsychists believe it is most likely that experience is foundational to the nature of all matter.
 
 However, if experience is foundational, then a theory of consciousness (ie the explanation for how the machinery of experience works) would be the foundational theory in all of science and philosophy. Consciousness would have to be to every other scientific theory what relativity is to cosmology. The former in both cases is the deeper theory because the latter is both cases is an emergent phenomenon 
 
-To see why this is true, consider the burdens on a theory of quantum mechanics (which also claims to be the fundamental theory). It has to be such that it not only explains quantum phenomenon but also how the emergent properties of such phenomenon can constitute
+To see why this is true, consider the burdens on a theory of quantum mechanics (which also claims to be the fundamental theory). It has to be such that it not only explains quantum phenomenon but also how the emergent properties of such phenomenon can constitut
 
 
 
@@ -18,6 +24,12 @@ To see why this is true, consider the burdens on a theory of quantum mechanics (
 > exemplified by something concretely real. Physics is silent on this aspect of the nature of φ. Why? Because physics is as Hawking says ‘just a set of rules and equations’ (1988: 174). It can’t tell us anything that can’t be expressed in such rules and equations.
 
 Strawson writes:
+
+I think that the postulation of radical emergence must always be a huge black mark against a theory
+
+And a huge black mark it is for panpsychism, whose claim to verity is predicated on the supposed lack of radical emergence within the theory. This, it turns out, is a false contention. 
+
+The entire point of panpsychism is that by attributing consciousness to everything, it never needs to explain why it emerges only in some things. This fails on multiple levels. But the first and most obvious objection is that saying that consciousness is everywhere doesn't actually explain why everything is conscious. Thus, panpsychism is a species of radical emergence; all it does is shift radical emergence from some point in the brain to 
 
 
 
@@ -31,7 +43,7 @@ I submit to you that any theory whose verity hinges on an appeal to ignorance an
 
 
 
-The measure of good scientific theories are that they are hard to vary explanations that actually explain the underlying phenomenon and that they are testable (Deutsch 2012). Panpsychism fails on both accounts. 
+The measure of good scientific theories is that they are hard to vary explanations that actually explain the underlying phenomenon and that they are falsifiable (Deutsch 2012). Panpsychism fails on both accounts. 
 
 ## The combination problem is non-trivial; panpschic unity does not answer
 

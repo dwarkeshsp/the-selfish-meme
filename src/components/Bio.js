@@ -1,11 +1,6 @@
 import React from "react";
 import styles from "./Bio.module.css";
 import { getGravatarURL } from "../utils/getGravatarURL";
-import ExpansionPanel from "@material-ui/core/ExpansionPanel";
-import ExpansionPanelSummary from "@material-ui/core/ExpansionPanelSummary";
-import ExpansionPanelDetails from "@material-ui/core/ExpansionPanelDetails";
-import Typography from "@material-ui/core/Typography";
-import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
 
 function Bio(props) {
   let photoURL = getGravatarURL({
@@ -35,9 +30,7 @@ function Bio(props) {
         <a href="https://frontarm.com/navi/">Navi</a>.
       </p> */}
       <p>
-        Minimalist blog about memetics, constructor theory, humanism, American
-        politics, Chinese totalitarianism, free speech, techonology, AI, quantum
-        theory, and my other interests.
+        Memetics, philosophy of mind, China, education, tech, and other things
         <br />
         <b>Dwarkesh Patel</b> • CS student at UT Austin
         <br />
