@@ -1,0 +1,1 @@
+The predictions of a theory of memetics about culture. 
