@@ -7,3 +7,14 @@
 .ArticleSummary a {
   text-decoration: none;
 }
+
+/* .ArticleSummary:hover {
+  text-decoration: underline;
+} */
+.ArticleSummary:hover h2 {
+  font-weight: 500;
+  text-decoration: underline;
+
+  margin-bottom: 0;
+  margin-top: 0;
+}
