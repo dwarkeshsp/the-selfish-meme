@@ -8,11 +8,13 @@ function ArticleSummary({ blogRoot, route }) {
   return (
     <div>
       <article className={styles.ArticleSummary}>
-        <h2>
-          <Link href={route.url.href}>{route.title}</Link>
-        </h2>
-        <ArticleMeta blogRoot={blogRoot} meta={route.data} />
-        <p>{route.data.spoiler}</p>
+        <Link href={route.url.href}>
+          <div>
+            <h2>{route.title}</h2>
+            <ArticleMeta blogRoot={blogRoot} meta={route.data} />
+            <p>{route.data.spoiler}</p>
+          </div>
+        </Link>
       </article>
       <Divider light variant="middle" component="li" />
     </div>
