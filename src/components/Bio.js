@@ -30,7 +30,7 @@ function Bio(props) {
         <a href="https://frontarm.com/navi/">Navi</a>.
       </p> */}
       <p>
-        Memetics, etc.
+        Memetics, etc. All original unless credit given. Not thoroughly edited.
         <br />
         <b>Dwarkesh Patel</b> • CS student at UT Austin
         <br />
