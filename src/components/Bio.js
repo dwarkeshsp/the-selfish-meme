@@ -41,8 +41,9 @@ function Bio(props) {
         <a href="https://www.youtube.com/watch?v=KzGjEkp772s">
           Short intro video on memetics
         </a>
-        {" • "}I recommend reading the chapters on The Evolution of Culture and
-        The Evolution of Creativity in{" "}
+        {" • "}I recommend reading the chapters on
+        <i> The Evolution of Culture </i>and
+        <i> The Evolution of Creativity </i>in{" "}
         <a href="https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359/ref=sr_1_1?crid=33HK3588KR3DC&keywords=the+beginning+of+infinity&qid=1572742336&sprefix=the+beginning+%2Caps%2C191&sr=8-1">
           The Beginning of Infinity
         </a>
