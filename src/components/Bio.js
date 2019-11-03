@@ -30,13 +30,22 @@ function Bio(props) {
         <a href="https://frontarm.com/navi/">Navi</a>.
       </p> */}
       <p>
-        Memetics, etc. All original unless credit given. Not thoroughly edited.
-        <br />
         <b>Dwarkesh Patel</b> • CS student at UT Austin
         <br />
         <a href="mailto:dwarkesh.sanjay.patel@gmail.com">Email</a>
         {" • "}
         <a href="https://gitlab.com/dwarkeshsp/">Gitlab</a>
+        <br />
+        Memetics, etc • Looking for criticism and refutations. Email me.
+        <br />
+        <a href="https://www.youtube.com/watch?v=KzGjEkp772s">
+          Short intro video on memetics
+        </a>
+        {" • "}I recommend reading the chapters on The Evolution of Culture and
+        The Evolution of Creativity in{" "}
+        <a href="https://www.amazon.com/Beginning-Infinity-Explanations-Transform-World/dp/0143121359/ref=sr_1_1?crid=33HK3588KR3DC&keywords=the+beginning+of+infinity&qid=1572742336&sprefix=the+beginning+%2Caps%2C191&sr=8-1">
+          The Beginning of Infinity
+        </a>
       </p>
     </div>
   );

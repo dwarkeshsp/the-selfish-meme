@@ -1,4 +1,4 @@
-The nucleotides of our DNA copy themselves by replicating a negative. The purpose of the dual stranded stringing is that the compounds on one end as a template for the other when copying. An adenine will spawn a thymine, which will return the favor by reconstituting the adenine. Such is the nature of positive-negative replication: the replicator creates a "negative" which recreates itself. From the perspective of the negative, the same is true.
+The nucleotides of our DNA copy themselves by creating a negative. The purpose of the dual stranded stringing is that the compounds on one strand act as a template for the other when replicating. An adenine will spawn a thymine, which will return the favor by reconstituting the adenine. Such is the nature of positive-negative replication: the replicator creates a "negative" which recreates itself. From the perspective of the negative, the same is true.
 
 So it is for memes as well. Imagine an idea which depends not on spreading itself faithfully but of goading a response which will resuscitate itself. Quickly, one gets a sore neck from following the ricochet of these reactionary reflections.
 
@@ -8,7 +8,7 @@ Memes are not done yet, for unlike simple organic replicators who utilize this s
 
 Perhaps the spread of the Protestant meme depended upon the violence between the aggrieved papacy and the fiesty heretics, where the actions of each provoked a response from the other. In the shadow of centuries of religious barbarism, the meme that sowed the motion feasted on the commotion.
 
-P.S. More germane to today's politics is something I came across online:
+P.S. More germane to today's politics is following insight I came across online:
 
 > No one needs neo-nazis like the woke left, and nobody needs the woke left like neo-nazis.
 > https://twitter.com/webdevMason/status/1190342188288237568
