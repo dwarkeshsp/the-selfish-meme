@@ -7,5 +7,9 @@
 }
 
 .tags li:not(:first-child)::before {
-  content: ', ';
+  content: ", ";
+}
+
+.tags li:hover {
+  font-size: 15px;
 }
