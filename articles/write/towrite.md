@@ -1,0 +1,5 @@
+- lethal memes based on concentrations (preserve concentrations based on precedence)
+- case for pluralism (can't have free for all nor one unquestionable meme)
+- dead dogma
+- memetic design cranes
+- memetics is a deeper explanation than human nature
