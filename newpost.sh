@@ -1,4 +1,4 @@
-cd src/routes/posts
+cd articles/write
 d=`date +%Y-%m-%d`
 title="${d}-${1}"
 mkdir $title
