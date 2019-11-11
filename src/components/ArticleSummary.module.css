@@ -9,9 +9,6 @@
   text-decoration: none;
 }
 
-/* .ArticleSummary:hover {
-  text-decoration: underline;
-} */
 .ArticleSummary:hover h2 {
   text-decoration: underline;
   /* font-size: 25px; */
