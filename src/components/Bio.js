@@ -35,6 +35,10 @@ function Bio(props) {
         <a href="mailto:dwarkesh.sanjay.patel@gmail.com">Email</a>
         {" • "}
         <a href="https://gitlab.com/dwarkeshsp/">Gitlab</a>
+        {" • "}
+        <a href="https://drive.google.com/file/d/1-JeLx9wiCa9cKQbkhd4S0ez-Wc83ztnv/view?usp=sharing">
+          Resume
+        </a>
         <br />
         Memetics, etc • Looking for criticism and refutations. Email me.
         <br />
