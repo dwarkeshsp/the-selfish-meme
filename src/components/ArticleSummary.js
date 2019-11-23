@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-navi";
-import Divider from "@material-ui/core/Divider";
 import ArticleMeta from "./ArticleMeta";
 import styles from "./ArticleSummary.module.css";
 
@@ -16,7 +15,6 @@ function ArticleSummary({ blogRoot, route }) {
           </div>
         </Link>
       </article>
-      <Divider light variant="middle" component="li" />
     </div>
   );
 }
